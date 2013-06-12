@@ -1,0 +1,14 @@
+{
+  "name": "circular",
+  "version": "0.1.0",
+  "repository": "git://github.com/mafintosh/circular",
+  "description": "Circular is an efficient circular buffer implemention in Javascript.",
+  "keywords": [
+    "circular",
+    "buffer",
+    "ring",
+    "cyclic",
+    "data"
+  ],
+  "author": "Mathias Buus Madsen <mathiasbuus@gmail.com>"
+}
