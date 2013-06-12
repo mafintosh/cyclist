@@ -1,6 +1,6 @@
 {
   "name": "cyclist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "git://github.com/mafintosh/cyclist",
   "description": "Cyclist is an efficient cyclic list implemention.",
   "dependencies": {},
