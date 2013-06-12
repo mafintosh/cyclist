@@ -1,39 +1,39 @@
-# Circular
+# Cyclist
 
-Circular is an efficient circular buffer implemention for Javascript.
+Cyclist is an efficient cyclic list implemention for Javascript.
 It is available through npm
 
-	npm install circular
+	npm install cyclist
 
 ## Usage
 
 ``` js
-var circular = require('circular');
-var buf = circular(4); // the size of the buffer should be a 2 magnitude
+var cyclist = require('cyclist');
+var list = cyclist(4); // the size of the buffer should be a 2 magnitude
                        // this buffer can now hold 4 elements in total
 
-buf.put(42, 'hello 42'); // store something and index 42
-buf.put(43, 'hello 43'); // store something and index 43
+list.put(42, 'hello 42'); // store something and index 42
+list.put(43, 'hello 43'); // store something and index 43
 
-console.log(buf.get(42)); // prints hello 42
-console.log(buf.get(46)); // prints hello 42
+console.log(list.get(42)); // prints hello 42
+console.log(list.get(46)); // prints hello 42 again since 46 - 42 == list.size
 ```
 
 You can use `.fit(minElementsCount)` to make sure the buffer can fit a certain
 amount of elements after it has been created.
 
 ``` js
-buf.fit(16); // buf can now hold at least 16 elements
+list.fit(16); // list can now hold at least 16 elements
 ```
 
 ## API
 
-* `circular(minSize)` creates a new buffer
-* `circular#get(index)` get an object stored in the buffer
-* `circular#put(index,value)` insert an object into the buffer
-* `circular#del(index)` delete an object from an index
-* `circular#fit(minSize)` resize the buffer if size is less than minSize
-* `circular#size` property containing current size of buffer
+* `cyclist(minSize)` creates a new buffer
+* `cyclist#get(index)` get an object stored in the buffer
+* `cyclist#put(index,value)` insert an object into the buffer
+* `cyclist#del(index)` delete an object from an index
+* `cyclist#fit(minSize)` resize the buffer if size is less than minSize
+* `cyclist#size` property containing current size of buffer
 
 ## License
 

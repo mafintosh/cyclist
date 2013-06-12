@@ -1,8 +1,8 @@
 {
-  "name": "circular",
+  "name": "cyclist",
   "version": "0.1.0",
-  "repository": "git://github.com/mafintosh/circular",
-  "description": "Circular is an efficient circular buffer implemention.",
+  "repository": "git://github.com/mafintosh/cylist",
+  "description": "Cyclist is an efficient cyclic list implemention.",
   "keywords": [
     "circular",
     "buffer",
