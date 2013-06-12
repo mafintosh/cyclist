@@ -5,6 +5,13 @@ It is available through npm
 
 	npm install cyclist
 
+## What?
+
+Cyclist allows you to create a list of fixed size that is cyclic.
+In a cyclist list the element following the last one is the first one.
+This property can be really useful when for example trying to order data
+packets that can arrive out of order over a network stream.
+
 ## Usage
 
 ``` js
