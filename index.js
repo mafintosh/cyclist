@@ -33,8 +33,8 @@ Cyclist.prototype.fit = function(size) {
 
 	var values = this.values;
 	var indexes = this.indexes;
-	this.values = [];
-	this.indexes = [];
+	this.values = new Array(this.size);
+	this.indexes = new Array(this.size);
 
 	for (var i = 0; i < indexes.length; i++) {
 		if (indexes[i] !== undefined) this.put(indexes[i], values[i]);
