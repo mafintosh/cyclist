@@ -1,6 +1,6 @@
 # Circular
 
-Circular is an efficient circular buffer implemention in Javascript.
+Circular is an efficient circular buffer implemention for Javascript.
 It is available through npm
 
 	npm install circular

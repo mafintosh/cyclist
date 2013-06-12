@@ -2,7 +2,7 @@
   "name": "circular",
   "version": "0.1.0",
   "repository": "git://github.com/mafintosh/circular",
-  "description": "Circular is an efficient circular buffer implemention in Javascript.",
+  "description": "Circular is an efficient circular buffer implemention.",
   "keywords": [
     "circular",
     "buffer",
