@@ -1,6 +1,6 @@
 # Cyclist
 
-Cyclist is an efficient cyclic list implemention for Javascript.
+Cyclist is an efficient [cyclic list](http://en.wikipedia.org/wiki/Circular_buffer) implemention for Javascript.
 It is available through npm
 
 	npm install cyclist
