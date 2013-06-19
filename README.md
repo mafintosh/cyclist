@@ -28,7 +28,7 @@ console.log(list.get(46)); // prints hello 42 again since 46 - 42 == list.size
 
 ## API
 
-* `cyclist(minSize)` creates a new buffer
+* `cyclist(size)` creates a new buffer
 * `cyclist#get(index)` get an object stored in the buffer
 * `cyclist#put(index,value)` insert an object into the buffer
 * `cyclist#del(index)` delete an object from an index
