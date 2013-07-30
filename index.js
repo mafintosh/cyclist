@@ -6,7 +6,9 @@ var Cyclist = function(size) {
 };
 
 Cyclist.prototype.put = function(index, val) {
-	this.values[index & this.mask] = val;
+	var pos = index & this.mask;
+	this.values[pos] = val;
+	return pos;
 };
 
 Cyclist.prototype.get = function(index) {
