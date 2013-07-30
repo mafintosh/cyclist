@@ -16,7 +16,7 @@ packets that can arrive out of order over a network stream.
 
 ``` js
 var cyclist = require('cyclist');
-var list = cyclist(4); // the size of the buffer MUST be a 2 magnitude
+var list = cyclist(4); // if size (4) is not a power of 2 it will be the follwing power of 2
                        // this buffer can now hold 4 elements in total
 
 list.put(42, 'hello 42'); // store something and index 42
