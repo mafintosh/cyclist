@@ -1,4 +1,4 @@
-var ensureTwoPower = function(n) {
+var twoify = function(n) {
 	if (n && !(n & (n - 1))) return n;
 	var p = 1;
 	while (p < n) p <<= 1;
@@ -7,7 +7,7 @@ var ensureTwoPower = function(n) {
 
 var Cyclist = function(size) {
 	if (!(this instanceof Cyclist)) return new Cyclist(size);
-	size = ensureTwoPower(size);
+	size = twoify(size);
 	this.mask = size-1;
 	this.size = size;
 	this.values = new Array(size);
