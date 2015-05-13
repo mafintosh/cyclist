@@ -1,5 +1,5 @@
 var tape = require('tape')
-var cyclist = require('cyclist')
+var cyclist = require('./')
 
 tape('basic put and get', function (t) {
   var list = cyclist(2)
