@@ -7,6 +7,8 @@ It is available through npm
 npm install cyclist
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/cyclist.svg?style=flat)](http://travis-ci.org/mafintosh/cyclist)
+
 ## What?
 
 Cyclist allows you to create a list of fixed size that is cyclic.
